@@ -23,8 +23,7 @@ The following table compares the five sets of data types that correspond to each
 |<p>AutoNumber</p><p>( **FieldSize** = Long Integer)</p>|Long Integer|**Long**|**adInteger**|<p>COUNTER</p><p>(Synonym: AUTOINCREMENT)</p>|
 |Currency|Currency|**Currency**|**adCurrency**|<p>CURRENCY</p><p>(Synonym: MONEY)</p>|
 |Date/Time|Date/Time|**Date**|**adDate**|<p>DATETIME</p><p>(Synonyms: DATE, TIME, TIMESTAMP)</p>|
-|<p>Number</p>
- <p>( **FieldSize** = Double)</p>|Double|**Double**|**adDouble**|<p>DOUBLE</p><p>(Synonyms: FLOAT, FLOAT8, IEEEDOUBLE, NUMBER, NUMERIC)</p>|
+|<p>Number</p><p>( **FieldSize** = Double)</p>|Double|**Double**|**adDouble**|<p>DOUBLE</p><p>(Synonyms: FLOAT, FLOAT8, IEEEDOUBLE, NUMBER, NUMERIC)</p>|
 |<p>AutoNumber /GUID </p><p>( **FieldSize** = Replication ID)</p>|Replication ID| _Not supported_|**adGUID**|GUID|
 |<p>Number</p><p>( **FieldSize** = Long Integer)</p>|Long Integer|**Long**|**adInteger**|<p>LONG (See Notes)</p><p>(Synonyms: INT, INTEGER, INTEGER4)</p>|
 |OLE Object|OLE Object|**String**|**adLongVarBinary**|<p>LONGBINARY</p><p>(Synonyms: GENERAL, OLEOBJECT)</p>|
