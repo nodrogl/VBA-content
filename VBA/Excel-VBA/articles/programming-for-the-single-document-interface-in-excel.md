@@ -256,7 +256,7 @@ End Sub
 ```
 
 
-    The following code would then be used to remove the toolbar before closing the workbook.
+   The following code would then be used to remove the toolbar before closing the workbook.
     
 
 
