@@ -58,7 +58,7 @@ If the range spans multiple cells then Excel creates a repeating XML List. Excel
 
 |**Note**|
 |:-----|  
-|<ul><li>Excel's header detection algorithm is not used in the object model. The assumption is that no headers exist in the grid.</li><li></li><li>Auto-merge and auto-grow are disabled when creating mapped ranges in the object model.</li></ul>|
+|<ul><li>Excel's header detection algorithm is not used in the object model. The assumption is that no headers exist in the grid.</li><li>Auto-merge and auto-grow are disabled when creating mapped ranges in the object model.</li></ul>|
 
 ## Example
 
