@@ -49,8 +49,10 @@ A  **[Name](name-object-excel.md)** object that represents the new name.
 
 This example defines a new name for the range A1:D3 on Sheet1 in the active workbook. 
 
-<table><tr><th>**Note**</th></tr><tr><td>**Nothing** is returned if Sheet1 does not exist.</td></tr></table>  
-
+|**Note**|
+|:-----|  
+|**Nothing** is returned if Sheet1 does not exist.|
+  
 
 ```vb
 Sub MakeRange() 
