@@ -39,9 +39,6 @@ Microsoft Access sometimes waits to complete pending screen updates until it fin
 This method doesn't cause a requery of the database, nor does it show new or changed records in the form's underlying record source. You can use the  **[Requery](form-requery-method-access.md)** method to requery the source of data for the form or one of its controls.
 
 
- **Note**  
-
-
 
 |**Note**|
 |:-----|
