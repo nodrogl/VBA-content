@@ -65,8 +65,9 @@ If the progress meter is already displayed when you set the text by calling the 
 
 Call the  **SysCmd** method with other actions to determine system information about Microsoft Access, including which version number of Microsoft Access is running, whether it is a run-time version, the location of the Microsoft Access executable file, the setting for the /profile argument specified in the command line, and the name of an .ini file associated with Microsoft Access.
 
-
- **Note**  Both general and customized settings for Microsoft Access are now stored in the Windows Registry, so you probably won't need an .ini file with your Microsoft Access application. The  **acSysCmdIniFile** action argument exists for compatibility with earlier versions of Microsoft Access.
+|**Note**|
+|:-----|  
+|Both general and customized settings for Microsoft Access are now stored in the Windows Registry, so you probably won't need an .ini file with your Microsoft Access application. The  **acSysCmdIniFile** action argument exists for compatibility with earlier versions of Microsoft Access.|
 
 Call the  **SysCmd** method with the **acSysCmdGetObjectState** action argument and the objecttype and objectname arguments to return the state of a specified database object. An object can be in one of four possible states: not open or nonexistent, open, new, or changed but not saved.
 
@@ -82,7 +83,10 @@ The  **SysCmd** method with the **acSysCmdGetObjectState** action argument can r
 |**acObjStateDirty**|Design changed but not saved|2|
 |**acObjStateNew**|New|4|
 
- **Note**  If the object referred to by the objectname argument is either not open or doesn't exist, the  **SysCmd** method returns a value of zero.
+
+|**Note**|
+|:-----|  
+|If the object referred to by the objectname argument is either not open or doesn't exist, the  **SysCmd** method returns a value of zero.|
 
 The following code can be used to enable the use of your ActiveX control in expressions when the ActiveX control has been added to a form:
 
@@ -93,11 +97,13 @@ The following code can be used to enable the use of your ActiveX control in expr
 SysCmd 14, "<ActiveX Control GUID>" 
 ```
 
+|**Note**|
+|:-----|  
+|Replace <ActiveX Control GUID> with the globally unique identifier (GUID) that identifies the ActiveX control that you want to enable in expressions.|
 
- **Note**  Replace <ActiveX Control GUID> with the globally unique identifier (GUID) that identifies the ActiveX control that you want to enable in expressions.
-
-
- **Note**  You cannot remove an ActiveX control once it has been added to the list of allowed controls.
+|**Note**|
+|:-----|  
+|You cannot remove an ActiveX control once it has been added to the list of allowed controls.|
 
 
 ## See also
