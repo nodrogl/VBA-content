@@ -10,7 +10,7 @@ ms.assetid: 6232c5cd-8bfe-2316-a0f6-6323db933357
 
 # Call Statement
 
-Transfers control to a  **Sub** procedure, **Function** procedure, or[dynamic-link library (DLL)](vbe-glossary.md)[procedure](vbe-glossary.md).
+Transfers control to a  **Sub** procedure, **Function** procedure, or [dynamic-link library (DLL)](vbe-glossary.md) [procedure](vbe-glossary.md).
 
  **Syntax**
 

@@ -23,6 +23,7 @@ Specifies whether a given form supports bidirectional characteristics.
 |:-----|:-----|
 |False|0|
 |True|1|
+
 Microsoft Forms 2.0 controls that have the ability to exhibit bidirectional characteristics do so when the  **RightToLeft** property of the form is set to **True**. When this property is set to **False**, forms and controls do not exhibit bidirectional characteristics. Bidirectional features of the **RightToLeft** property are listed in the following table.
 
 
